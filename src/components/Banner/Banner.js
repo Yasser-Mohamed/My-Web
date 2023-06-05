@@ -10,7 +10,7 @@ const PDF_File = 'http://localhost:3000/Yasser-Mohamed-resume.pdf'
 
 const Banner = () => {
     const handleDownload = () => {
-        const fileUrl = 'http://localhost:3000/Yasser-Mohamed-resume.pdf'; // replace with your file URL
+        const fileUrl = 'https://yasser-mohamed.github.io/My-Web/Yasser-Mohamed-resume.pdf'; // replace with your file URL
         const fileName = 'Yasser-Mohamed-resume.pdf'; // replace with your file name
         const link = document.createElement('a');
         link.href = fileUrl;
@@ -57,7 +57,7 @@ const Banner = () => {
                             whileInView={'show'}
                             viewport={{ once: false, amount: 0.7 }}
                             className='mb-8 max-w-lg mx-auto lg:mx-0'>
-                            I'm a Freelance Front-End Developer with 1 year of Experience.
+                            I'm a Freelance Front-End Developer with 2 year's of Experience.
                         </motion.p>
                         <motion.div
                             variants={fadeIn('up', 0.6)}
