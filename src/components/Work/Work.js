@@ -87,7 +87,7 @@ const Work = () => {
                             </div>
                             {/* title */}
                             <div
-                                className='absolute -bottom-20 left-1/2 -translate-x-1/2 group-hover:bottom-11 transition-all duration-700 z-50'>
+                                className='absolute -bottom-full left-1/2 -translate-x-1/2 group-hover:bottom-6 transition-all duration-700 z-50'>
                                 <span className='text-gradient text-2xl '>Shortly URL shortening API </span>
                             </div>
                             </div>

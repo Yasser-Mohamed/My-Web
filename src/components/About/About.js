@@ -21,7 +21,7 @@ const About = () => {
       }
 
     return (
-        <section className='section' id='about' ref={ref}>
+        <section className='section ' id='about' ref={ref}>
             <div className='container mx-auto '>
                 <div className='flex flex-col gap-y-10 lg:flex-row lg:items-center
                 lg:gap-x-20 lg:gap-y-0 h-screen'>
@@ -31,7 +31,7 @@ const About = () => {
                         initial='hidden'
                         whileInView={'show'}
                         viewport={{ once: false, amount: 0.3 }}
-                        className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] mix-blend-lighten bg-top'>
+                        className='flex-1 bg-about bg-contain bg-no-repeat h-[640px] hidden md:flex mix-blend-lighten bg-top'>
 
                     </motion.div>
                     {/* text */}
@@ -66,7 +66,7 @@ const About = () => {
                                 <button className='btn btn-lg'>
                                     <a href="https://wa.me/201141826327?text=">Contact me</a>
                                 </button>
-                                <button onClick={handleDownload} className='btn-link flex justify-center items-center gap-2 text-gradient'>
+                                <button onClick={handleDownload} className='btn-link flex justify-center items-center md:gap-2 text-sm md:text-lg text-gradient'>
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="#42a6e3" className="w-6 h-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                                 </svg>

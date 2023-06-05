@@ -13,7 +13,7 @@ const services = [
 
 const Services = () => {
     return (
-        <section className='section' id='services'>
+        <section className='section pt-[180px] md:pt-4' id='services'>
 
             <div className='container mx-auto'>
                 <div className='flex flex-col lg:flex-row'>
