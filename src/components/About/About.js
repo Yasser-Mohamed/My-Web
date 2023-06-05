@@ -10,7 +10,7 @@ const About = () => {
     })
 
     const handleDownload = () => {
-        const fileUrl = 'http://localhost:3000/Yasser-Mohamed-resume.pdf'; // replace with your file URL
+        const fileUrl = 'https://yasser-mohamed.github.io/My-Web/Yasser-Mohamed-resume.pdf'; // replace with your file URL
         const fileName = 'Yasser-Mohamed-resume.pdf'; // replace with your file name
         const link = document.createElement('a');
         link.href = fileUrl;
